@@ -1,0 +1,54 @@
+*{box-sizing: border-box;}
+.display_cont{border:1px solid #ddd;border-radius:7px;max-height:600px;width:90%;margin:3% auto; text-align:center;
+position:relative;}
+.study{margin:5% auto; width:90%;}
+
+
+
+
+
+
+
+/*my regular styles*/
+
+
+/*responsive section*/
+@media only screen and (min-width:320px) and (max-width:514px){
+
+}
+@media only screen and (min-width:515px) and (max-width:991px)
+{
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1999px)
+{
+
+}
+
+.word_wrap{
+/* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  }
+
+.clr, .clear{clear:both;}
+
+.test_red,.t_rd{border:1px solid red;}
+.test_blue,.t_blu{border:1px solid blue;}
+.test_black,.t_blk{border:1px solid black;}
+.test_green, .t_gn{border:1px solid green;}
+.test_purple, .t_pp{border:1px solid purple;}
+.test_pink, .t_pk{border:1px solid pink;}
